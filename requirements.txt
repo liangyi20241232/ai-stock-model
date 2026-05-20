@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+akshare
+pyarrow
+matplotlib
+pyyaml
+tqdm
+lightgbm

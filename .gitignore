@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pycache_check/
+.matplotlib_cache/
+*.pyc
+.DS_Store
+data/raw/
+data/processed/
+output/
+.ipynb_checkpoints/

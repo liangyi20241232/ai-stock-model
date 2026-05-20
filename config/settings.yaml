@@ -1,0 +1,26 @@
+model:
+  prediction_horizon: 20
+  target_type: outperform_ai_pool
+  test_size_ratio: 0.25
+  random_state: 42
+
+portfolio:
+  entry_threshold: 0.55
+  full_confidence: 0.70
+  probability_gamma: 2.0
+
+  max_total_weight: 0.70
+
+  core_budget_ratio: 0.70
+  satellite_budget_ratio: 0.30
+
+  core_single_cap: 0.10
+  satellite_single_cap: 0.03
+
+backtest:
+  rebalance_frequency: monthly
+  transaction_cost: 0.001
+
+data:
+  start_date: "20210101"
+  end_date: ""
